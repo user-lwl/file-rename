@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: user-center
+  session:
+    timeout: 86400
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+  global-config:
+    db-config:
+      logic-delete-field: isDelete
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+lwl:
+  # ini文件位置
+  iniFilePath: F:\file-rename\src\main\resources\config.ini
+  # 需要重命名文件夹位置
+  targetFolderPath: F:\tst-txt
+  # 日志存放位置
+  logPath: F:\log.txt
