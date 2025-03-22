@@ -434,8 +434,8 @@ public class fileRenameController {
 
     /**
      * 写日志
-     * @param message
-     * @param logFilePath
+     * @param message 日志信息
+     * @param logFilePath 日志文件路径
      */
     private static void logMessage(String message, String logFilePath) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(logFilePath, true))) {

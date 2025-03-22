@@ -1,6 +1,6 @@
 spring:
   application:
-    name: user-center
+    name: file-rename
   session:
     timeout: 86400
 server:
